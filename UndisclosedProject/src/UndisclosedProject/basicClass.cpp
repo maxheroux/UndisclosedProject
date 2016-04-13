@@ -5,10 +5,10 @@
 namespace undisclosed_project
 {
 	myClass::myClass()
-		: mPtr(0)						///< Initialized to 0
+		: mPtr(NULL)						///< Initialized to 0
 	{
 		// Basic constructor shit
-		mPtr++;
+		mPtr = new int(10);
 	}
 
 	myClass::~myClass()
@@ -20,7 +20,7 @@ namespace undisclosed_project
 
 	void myClass::printMyInt()
 	{
-		printf("My integer: %d", mPtr);
+		printf("My integer: %d", *mPtr);
 		getchar();
 	}
 }
