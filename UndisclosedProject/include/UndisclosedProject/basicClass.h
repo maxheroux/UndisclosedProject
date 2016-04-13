@@ -1,3 +1,6 @@
+#ifndef UNDISCLOSED_PROJECT_BASICCLASS_H
+#define UNDISCLOSED_PROJECT_BASICCLASS_H
+
 namespace undisclosed_project
 {
 	////////////////////////////////////////////////////////////
@@ -78,3 +81,5 @@ namespace undisclosed_project
 		int* mPtr;					///< Integer pointer for dummies
 	};
 }
+
+#endif
